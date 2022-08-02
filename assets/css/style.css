@@ -1,0 +1,59 @@
+/* 전역 css 변수 설정 */
+
+:root {
+    /* Color */
+    --color-white: #ffffff;
+    --color-light-white: #eeeeee;
+    --color-dark-white: #bdbdbd;
+    --color-dark-grey: #4d4d4d;
+    --color-grey: #616161;
+    --color-light-grey: #7c7979;
+    --color-black: #000000;
+    --color-blue: #73aace;
+    --color-teal: #00ADB5;
+  
+    /* Font size */
+    --font-large: 48px;
+    --font-medium: 28px;
+    --font-regular: 18px;
+    --font-small: 16px;
+    --font-micro: 14px;
+  
+    /* Font weight */
+    --weight-bold: 700;
+    --weight-semi-bold: 600;
+    --weight-regular: 400;
+  
+    /* Size */
+    --size-border-radius: 4px;
+  
+    /* Animation */
+    --animation-duration: 400ms;
+}
+
+/* 전체 태그 설정 */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+    cursor: default;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0px;
+}
+
+/* 버튼, 링크 테두리 효과 없애고 싶을 때 border, ouline 을 0으로 조정 */
+button {
+    cursor: pointer;
+    border: none;
+    outline: 0;
+}
