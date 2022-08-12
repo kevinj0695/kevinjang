@@ -7,45 +7,59 @@
     <link rel="shortcut icon" href="../assets/image/favicon.ico">
     <title>Java Developer Kevinjang</title>
     <script src="https://kit.fontawesome.com/d7134871a2.js" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
     <link rel="stylesheet" href="../assets/css/style.css">
     <link 
 		href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" 
 		rel="stylesheet">
 </head>
 <body>
+  
+    
+    
+      
+
+    <!-- HOME -->
+    <section id="home">
+        <img 
+        src="../assets/image/Kevinj-photo.png" 
+        alt="Kevinjang's profile photo"
+        class="home__avatar"
+        />
+       
+    </section>
+    
+    <h1 class="ml1">
+        <span class="text-wrapper">
+            <span class="line line1"></span>
+            <span class="home__title letters">
+                안녕하세요? 성장하는 개발자 KevinJ입니다.
+            </span>
+            <h2 class="home__description letters">
+                프로그래밍에 관심이 많아서 개발자로 입문하게 되었습니다!
+            </h2>
+            <span class="line line2"></span>
+        </span>
+    </h1>
+    <button class="home__contact">Contact Me!</button>
+     
     <!-- Navbar -->
     <nav id="navbar">
         <div class="navbar__menu">
-            <ul class="navbar__menu">
+            <ul class="navbar__menu__items">
                 <li class="navbar__menu__item">About</li>
                 <li class="navbar__menu__item">Skill</li>
-            </ul>
-        </div>
-        <div class="navbar__logo">
-            <a href="#">
-                <img class="navbar__logo__image" src="../assets/image/open-book.png">
-                <b class="navbar__logo__title">KevinJ Portfolio</b>
-            </a>
-        </div>
-        <div class="navbar__menu">
-            <ul class="navbar__menu">
+                <li class="navbar__menu__item">
+                    <a href="#" class="navbar__menu__main">
+                        <img src="../assets/image/open-book.png">
+                        <p class="navbar__menu__title">KevinJ Portfolio</p>
+                    </a>
+                </li>
                 <li class="navbar__menu__item">Project</li>
                 <li class="navbar__menu__item">Contact</li>
             </ul>
         </div>
     </nav>
-
-    <!-- HOME -->
-    <section id="home">
-        <img 
-            src="../assets/image/Kevinj-photo.png" 
-            alt="Kevinjang's profile photo"
-            class="home__avatar"
-        />
-        <h1 class="home__title">안녕하세요? 성장하는 개발자 KevinJ입니다.</h1>
-        <h2 class="home__description">프로그래밍에 관심이 많아서 개발자로 입문하게 되었습니다!</h2>
-        <button class="home__contact">Contact Me!</button>
-    </section> 
 
     <!-- About -->
     <section id="about" class="section">
@@ -224,5 +238,7 @@
             2022 Kevinjang - All rights reserved
         </p>
     </section>
+
+    <script src="../assets/javascript/main.js"></script>
 </body>
 </html>
