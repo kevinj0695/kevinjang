@@ -121,7 +121,7 @@ p {
     align-items: center;
     background-image: url(../image/home-bg.png);
     background-repeat: no-repeat;
-    height: 800px;
+    height: 1000px;
 }
 
 .home__description {
@@ -174,18 +174,15 @@ p {
     height: 800px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
     background-image: url(../image/about-bg.png);
     background-repeat: no-repeat;
 }
 
 .about__avatar {
-    width: 250px;
-    height: 250px;
-    border: 5px solid var(--color-light-white);
-    border-radius: 50%;
-    box-shadow: rgba(97, 56, 56, 0.35) 0px 5px 15px;
-    margin-right: 24px;
+    width: 600px;
+    height: 600px;
+    
 }
 
 /* about-language */
@@ -194,7 +191,6 @@ p {
     width: 120px;
     height: 120px;
     border: 1px solid rgb(82, 82, 82);
-    box-shadow: rgba(97, 56, 56, 0.35) 0px 5px 15px;
     padding: 20px;
     border-radius: 50%;
     display: flex;
