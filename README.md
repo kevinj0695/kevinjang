@@ -9,3 +9,4 @@
  - version 0.0.7 : proto.html, proto.css 를 생성, 
  proto 를 기반으로 version 0.0.6 까지의 html 작업물은 참조만 하고,
  풀스크린 탭 콘텐츠 슬라이더 포트폴리오 생성 계획중
+ - version 0.0.8 : HTML/CSS - proto.html HOME 파트 구성
